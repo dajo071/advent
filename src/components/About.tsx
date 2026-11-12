@@ -9,6 +9,7 @@ import { actions, useData } from '../store';
 export function About() {
   const data = useData();
   const [copied, setCopied] = useState(false);
+  const [preview, setPreview] = useState(index.days[index.days.length - 1].date);
   const url = absoluteUrl(href.home);
   const time = data.settings.prayerTime;
   return (
@@ -93,6 +94,28 @@ export function About() {
           v repozitári projektu.
         </p>
       </section>
+
+      <details className="sources">
+        <summary>Náhľad pre správcu obsahu</summary>
+        <p>Zobrazí aplikáciu tak, akoby bol zvolený deň – napríklad na kontrolu budúcich okienok. Platí len v tejto karte prehliadača.</p>
+        <div className="share__row">
+          <label htmlFor="nahlad">Dátum náhľadu</label>
+          <input
+            id="nahlad"
+            type="date"
+            min={`${index.year}-11-01`}
+            max={`${index.year + 1}-01-31`}
+            defaultValue={index.days[index.days.length - 1].date}
+            onChange={(e) => setPreview(e.target.value)}
+          />
+          <button type="button" className="btn btn--line" disabled={!preview} onClick={() => location.assign(`${location.pathname}?nahlad=${preview}`)}>
+            Zobraziť
+          </button>
+          <button type="button" className="btn btn--line" onClick={() => location.assign(`${location.pathname}?nahlad=vypnut`)}>
+            Vypnúť náhľad
+          </button>
+        </div>
+      </details>
 
       <section className="prose" aria-labelledby="ochrana">
         <h2 id="ochrana" className="label">

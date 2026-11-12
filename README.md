@@ -67,7 +67,7 @@ Aplikácia beží na `http://localhost:5173/advent/`.
 
 ### Náhľad budúcich dní
 
-Kto spravuje obsah, môže si aplikáciu pozrieť tak, akoby bol iný deň: pridaj za adresu `?nahlad=2026-12-10`. Vypne sa cez `?nahlad=vypnut` alebo zatvorením karty. Zamykanie dní je vec používateľskej skúsenosti, nie zabezpečenia – obsah je verejný v tomto repozitári.
+Kto spravuje obsah, môže si aplikáciu pozrieť tak, akoby bol iný deň: pridaj za adresu `?nahlad=2026-12-10` (napríklad `https://dajo071.github.io/advent/?nahlad=2026-12-10`) alebo si dátum vyber na stránke „O projekte“ v časti „Náhľad pre správcu obsahu“. Vypne sa cez `?nahlad=vypnut` alebo zatvorením karty. Zamykanie dní je vec používateľskej skúsenosti, nie zabezpečenia – obsah je verejný v tomto repozitári.
 
 ## Úprava obsahu
 

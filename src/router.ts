@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 export type Route = { name: 'home' } | { name: 'day'; day: number } | { name: 'journal' } | { name: 'about' };
 
 export function parseRoute(hash: string): Route {
-  const path = hash.replace(/^#\/?/, '');
+  const path = hash.replace(/^#\/?/, '').replace(/\?.*$/, '').replace(/\/$/, '');
   const m = path.match(/^den\/(\d{1,2})$/);
   if (m) return { name: 'day', day: Number(m[1]) };
   if (path === 'dennik') return { name: 'journal' };

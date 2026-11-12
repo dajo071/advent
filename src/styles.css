@@ -702,6 +702,7 @@ a.window:hover {
 }
 .journal-box textarea,
 .share input[type='text'],
+input[type='date'],
 input[type='time'] {
   width: 100%;
   background: #fffaf0;
@@ -711,7 +712,8 @@ input[type='time'] {
   line-height: 1.6;
   color: var(--ink);
 }
-input[type='time'] {
+input[type='time'],
+input[type='date'] {
   width: auto;
   min-height: 48px;
 }

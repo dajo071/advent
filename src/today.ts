@@ -4,7 +4,8 @@ import { isValidISO, toISO } from './dates';
 // Náhľad pre správcu obsahu: ?nahlad=2026-12-10 zobrazí aplikáciu tak, akoby bol daný deň.
 function previewDate(): string | null {
   try {
-    const q = new URLSearchParams(location.search).get('nahlad');
+    // Parameter sa číta z adresy pred „#“ aj za ním (…/#/den/10?nahlad=2026-12-10).
+    const q = new URLSearchParams(location.search).get('nahlad') ?? new URLSearchParams(location.hash.split('?')[1] ?? '').get('nahlad');
     if (q === 'vypnut') sessionStorage.removeItem('nahlad');
     else if (isValidISO(q)) sessionStorage.setItem('nahlad', q);
     const s = sessionStorage.getItem('nahlad');
