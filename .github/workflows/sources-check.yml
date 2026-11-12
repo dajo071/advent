@@ -1,0 +1,26 @@
+name: Overenie citácií voči zdrojom
+
+# Porovná uložené biblické úryvky so znením na mojabiblia.sk a overí, že citované
+# články Katechizmu existujú na dkc.kbs.sk. Spúšťa sa ručne a raz mesačne.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 1 * *'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Biblické úryvky
+        run: npm run scripture:check
+      - name: Katechizmus Katolíckej cirkvi
+        run: npm run kkc:check

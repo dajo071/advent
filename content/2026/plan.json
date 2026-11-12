@@ -1,0 +1,421 @@
+{
+  "year": 2026,
+  "title": "Cesta k jasliam",
+  "motto": "Nepripravujme iba Vianoce. Pripravujme svoje srdce na Ježiša.",
+  "liturgicalYear": "B",
+  "translation": "Sväté písmo – katolícky preklad (© Spolok svätého Vojtecha, Trnava)",
+  "scriptureSource": "https://mojabiblia.sk/",
+  "calendarSource": "https://mojabiblia.sk/liturgicky-kalendar/",
+  "stages": [
+    {
+      "id": 1,
+      "name": "Bdejte",
+      "theme": "Očakávanie",
+      "description": "Spomaliť a všimnúť si, že Boh prichádza."
+    },
+    {
+      "id": 2,
+      "name": "Pripravte cestu",
+      "theme": "Obrátenie",
+      "description": "Pravdivo sa pozrieť na seba a vrátiť sa k Bohu."
+    },
+    {
+      "id": 3,
+      "name": "Radujte sa",
+      "theme": "Dôvera",
+      "description": "Učiť sa dôverovať Bohu aj v tme a neistote."
+    },
+    {
+      "id": 4,
+      "name": "Hľa, služobnica",
+      "theme": "Láska a služba",
+      "description": "Povedať áno a premeniť ho na skutok."
+    },
+    {
+      "id": 5,
+      "name": "Slovo sa telom stalo",
+      "theme": "Narodenie Krista",
+      "description": "Prijať Boha, ktorý prichádza ako dieťa."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-11-29",
+      "liturgicalDay": "1. adventná nedeľa (rok B)",
+      "stage": 1,
+      "scripture": {
+        "ref": "Mk 13, 33-37",
+        "bookAbbr": "Mk",
+        "bookId": 41,
+        "bookName": "Evanjelium podľa Marka",
+        "chapter": 13,
+        "verses": "33-37"
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-11-30",
+      "liturgicalDay": "Sviatok svätého Ondreja, apoštola",
+      "stage": 1,
+      "scripture": {
+        "ref": "Mt 4, 18-20",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 4,
+        "verses": "18-20"
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-12-01",
+      "liturgicalDay": "Utorok po 1. adventnej nedeli",
+      "stage": 1,
+      "scripture": {
+        "ref": "Lk 10, 21.23-24",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 10,
+        "verses": "21.23-24"
+      }
+    },
+    {
+      "day": 4,
+      "date": "2026-12-02",
+      "liturgicalDay": "Streda po 1. adventnej nedeli",
+      "stage": 1,
+      "scripture": {
+        "ref": "Iz 25, 6-9",
+        "bookAbbr": "Iz",
+        "bookId": 23,
+        "bookName": "Kniha proroka Izaiáša",
+        "chapter": 25,
+        "verses": "6-9"
+      }
+    },
+    {
+      "day": 5,
+      "date": "2026-12-03",
+      "liturgicalDay": "Spomienka svätého Františka Xaverského, kňaza",
+      "stage": 1,
+      "scripture": {
+        "ref": "Mt 7, 21.24-27",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 7,
+        "verses": "21.24-27"
+      }
+    },
+    {
+      "day": 6,
+      "date": "2026-12-04",
+      "liturgicalDay": "Piatok po 1. adventnej nedeli",
+      "stage": 1,
+      "scripture": {
+        "ref": "Mt 9, 27-30",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 9,
+        "verses": "27-30"
+      }
+    },
+    {
+      "day": 7,
+      "date": "2026-12-05",
+      "liturgicalDay": "Sobota po 1. adventnej nedeli",
+      "stage": 1,
+      "scripture": {
+        "ref": "Iz 30, 19-21",
+        "bookAbbr": "Iz",
+        "bookId": 23,
+        "bookName": "Kniha proroka Izaiáša",
+        "chapter": 30,
+        "verses": "19-21"
+      }
+    },
+    {
+      "day": 8,
+      "date": "2026-12-06",
+      "liturgicalDay": "2. adventná nedeľa",
+      "stage": 2,
+      "scripture": {
+        "ref": "Mk 1, 1-5",
+        "bookAbbr": "Mk",
+        "bookId": 41,
+        "bookName": "Evanjelium podľa Marka",
+        "chapter": 1,
+        "verses": "1-5"
+      }
+    },
+    {
+      "day": 9,
+      "date": "2026-12-07",
+      "liturgicalDay": "Spomienka svätého Ambróza, biskupa a učiteľa Cirkvi",
+      "stage": 2,
+      "scripture": {
+        "ref": "Lk 5, 18-20",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 5,
+        "verses": "18-20"
+      }
+    },
+    {
+      "day": 10,
+      "date": "2026-12-08",
+      "liturgicalDay": "Slávnosť Nepoškvrneného počatia Panny Márie",
+      "stage": 2,
+      "scripture": {
+        "ref": "Lk 1, 26-30",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "26-30"
+      }
+    },
+    {
+      "day": 11,
+      "date": "2026-12-09",
+      "liturgicalDay": "Streda po 2. adventnej nedeli",
+      "stage": 2,
+      "scripture": {
+        "ref": "Mt 11, 28-30",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 11,
+        "verses": "28-30"
+      }
+    },
+    {
+      "day": 12,
+      "date": "2026-12-10",
+      "liturgicalDay": "Štvrtok po 2. adventnej nedeli",
+      "stage": 2,
+      "scripture": {
+        "ref": "Iz 41, 13-14.17-18",
+        "bookAbbr": "Iz",
+        "bookId": 23,
+        "bookName": "Kniha proroka Izaiáša",
+        "chapter": 41,
+        "verses": "13-14.17-18"
+      }
+    },
+    {
+      "day": 13,
+      "date": "2026-12-11",
+      "liturgicalDay": "Piatok po 2. adventnej nedeli",
+      "stage": 2,
+      "scripture": {
+        "ref": "Mt 11, 16-19",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 11,
+        "verses": "16-19"
+      }
+    },
+    {
+      "day": 14,
+      "date": "2026-12-12",
+      "liturgicalDay": "Sobota po 2. adventnej nedeli",
+      "stage": 2,
+      "scripture": {
+        "ref": "Mt 17, 10-13",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 17,
+        "verses": "10-13"
+      }
+    },
+    {
+      "day": 15,
+      "date": "2026-12-13",
+      "liturgicalDay": "3. adventná nedeľa (Gaudete)",
+      "stage": 3,
+      "scripture": {
+        "ref": "1 Sol 5, 16-18.23-24",
+        "bookAbbr": "1 Sol",
+        "bookId": 52,
+        "bookName": "Prvý list Solúnčanom",
+        "chapter": 5,
+        "verses": "16-18.23-24"
+      }
+    },
+    {
+      "day": 16,
+      "date": "2026-12-14",
+      "liturgicalDay": "Spomienka svätého Jána od Kríža, kňaza a učiteľa Cirkvi",
+      "stage": 3,
+      "scripture": {
+        "ref": "Nm 24, 15-17",
+        "bookAbbr": "Nm",
+        "bookId": 4,
+        "bookName": "Kniha Numeri",
+        "chapter": 24,
+        "verses": "15-17"
+      }
+    },
+    {
+      "day": 17,
+      "date": "2026-12-15",
+      "liturgicalDay": "Utorok po 3. adventnej nedeli",
+      "stage": 3,
+      "scripture": {
+        "ref": "Mt 21, 28-31",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 21,
+        "verses": "28-31"
+      }
+    },
+    {
+      "day": 18,
+      "date": "2026-12-16",
+      "liturgicalDay": "Streda po 3. adventnej nedeli",
+      "stage": 3,
+      "scripture": {
+        "ref": "Lk 7, 19-23",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 7,
+        "verses": "19-23"
+      }
+    },
+    {
+      "day": 19,
+      "date": "2026-12-17",
+      "liturgicalDay": "17. december – predvianočný deň",
+      "stage": 3,
+      "scripture": {
+        "ref": "Mt 1, 1.16-17",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 1,
+        "verses": "1.16-17"
+      }
+    },
+    {
+      "day": 20,
+      "date": "2026-12-18",
+      "liturgicalDay": "18. december – predvianočný deň",
+      "stage": 3,
+      "scripture": {
+        "ref": "Mt 1, 20-24",
+        "bookAbbr": "Mt",
+        "bookId": 40,
+        "bookName": "Evanjelium podľa Matúša",
+        "chapter": 1,
+        "verses": "20-24"
+      }
+    },
+    {
+      "day": 21,
+      "date": "2026-12-19",
+      "liturgicalDay": "19. december – predvianočný deň",
+      "stage": 3,
+      "scripture": {
+        "ref": "Lk 1, 11-13.18-20",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "11-13.18-20"
+      }
+    },
+    {
+      "day": 22,
+      "date": "2026-12-20",
+      "liturgicalDay": "4. adventná nedeľa",
+      "stage": 4,
+      "scripture": {
+        "ref": "Lk 1, 35-38",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "35-38"
+      }
+    },
+    {
+      "day": 23,
+      "date": "2026-12-21",
+      "liturgicalDay": "21. december – predvianočný deň",
+      "stage": 4,
+      "scripture": {
+        "ref": "Lk 1, 39-42.45",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "39-42.45"
+      }
+    },
+    {
+      "day": 24,
+      "date": "2026-12-22",
+      "liturgicalDay": "22. december – predvianočný deň",
+      "stage": 4,
+      "scripture": {
+        "ref": "Lk 1, 46-50",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "46-50"
+      }
+    },
+    {
+      "day": 25,
+      "date": "2026-12-23",
+      "liturgicalDay": "23. december – predvianočný deň",
+      "stage": 4,
+      "scripture": {
+        "ref": "Mal 3, 1.23-24",
+        "bookAbbr": "Mal",
+        "bookId": 39,
+        "bookName": "Kniha proroka Malachiáša",
+        "chapter": 3,
+        "verses": "1.23-24"
+      }
+    },
+    {
+      "day": 26,
+      "date": "2026-12-24",
+      "liturgicalDay": "24. december – Štedrý deň, vigília Narodenia Pána",
+      "stage": 5,
+      "scripture": {
+        "ref": "Lk 1, 76-79",
+        "bookAbbr": "Lk",
+        "bookId": 42,
+        "bookName": "Evanjelium podľa Lukáša",
+        "chapter": 1,
+        "verses": "76-79"
+      }
+    },
+    {
+      "day": 27,
+      "date": "2026-12-25",
+      "liturgicalDay": "Slávnosť Narodenia Pána",
+      "stage": 5,
+      "scripture": {
+        "ref": "Jn 1, 9-14",
+        "bookAbbr": "Jn",
+        "bookId": 43,
+        "bookName": "Evanjelium podľa Jána",
+        "chapter": 1,
+        "verses": "9-14"
+      }
+    }
+  ]
+}
